@@ -1,46 +1,45 @@
-# Getting Started with Create React App
+# Calculator App Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+This repository hosts the frontend (FE) part of a calculator application designed to provide a simple yet powerful user interface for performing arithmetic calculations. The frontend is built with React, leveraging React Query for efficient server state management and Ant Design (antd) for a polished, user-friendly UI.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Modern UI**: Built with Ant Design for a responsive and intuitive user interface.
+- **State Management**: Uses React Query for handling asynchronous data fetching, caching, and synchronization.
+- **Dynamic Calculations**: Communicates with the backend to process and display calculation results.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Ensure you have [Node.js](https://nodejs.org/) installed on your machine. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), so you'll need Node.js version 10.16.0 or later.
 
-### `npm test`
+Follow these steps to get the frontend running:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the Repository**
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/zdwarren/calc-fe.git
+   cd calc-fe
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install Dependencies**
+Inside the project directory, install the necessary packages using npm:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Start the Development Server**
+Start the app in development mode by running:
 
-### `npm run eject`
+```bash
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Open http://localhost:3000 to view it in your browser. The page will reload when you make changes.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Run Tests**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm test
+```
