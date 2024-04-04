@@ -18,9 +18,10 @@ Follow these steps to get the frontend running:
 
 1. **Clone the Repository**
 
-   ```bash
-   git clone https://github.com/zdwarren/calc-fe.git
-   cd calc-fe
+```bash
+git clone https://github.com/zdwarren/calc-fe.git
+cd calc-fe
+```
 
 2. **Install Dependencies**
 Inside the project directory, install the necessary packages using npm:
